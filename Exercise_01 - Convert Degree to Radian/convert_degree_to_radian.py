@@ -28,7 +28,7 @@ def calculateRadianValue(r_degree):
     return radian_value
 
 while key == 1:
-    degree = input("Lütfen Derece Değerini Giriniz: ")
+    degree = input("Please Enter The Degree Value: ")
     key = checkDegreeValue(degree)
 radian = calculateRadianValue(degree)
 print("Degree Value: " + str(degree))
