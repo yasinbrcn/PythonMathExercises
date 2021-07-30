@@ -1,7 +1,7 @@
 """
 Created on Fri Jul 30 07:39:52 2021
 
-@author: pc2
+@author: Yasin BİRCAN
 """
 key = 1
 key2 = 1
