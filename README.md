@@ -29,4 +29,4 @@ Least common multiple of two number is calculated.<br/>
 The data type of entered value is checked. If data type is not integer and entered number from lower than zero, the error message is show.<br/>
 ## . Exercise_8 - Abundant Number
 It is checked whether the entered number is an abundant number.<br/>
-**Abundant Number:** In number theory, an abundant number or excessive number is a number that is smaller than the sum of its proper divisors. The integer 12 is the first abundant number. Its proper divisors are 1, 2, 3, 4 and 6 for a total of 16. The amount by which the sum exceeds the number is the abundance. The number 12 has an abundance of 4, for example. (For more information: https://en.wikipedia.org/wiki/Abundant_number)
+**Abundant Number:** In number theory, an abundant number or excessive number is a number that is smaller than the sum of its proper divisors. The integer 12 is the first abundant number. Its proper divisors are 1, 2, 3, 4 and 6 for a total of 16. The amount by which the sum exceeds the number is the abundance. The number 12 has an abundance of 4, for example. (https://en.wikipedia.org/wiki/Abundant_number)
