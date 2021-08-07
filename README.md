@@ -21,3 +21,9 @@ The data type of entered value is checked. If data type is not integer, the erro
 The area and volume of cylinder is calculated.<br/>
 The data type of entered value is checked. If data type is not integer, the error message is show.<br/>
 ![Cylinder Area and Volume Formula](images/cylinder_area_and_volume_formula.png)
+## . Exercise_6 - Greatest Common Divisor
+Greatest common divisior of two number is calculated.<br/>
+The data type of entered value is checked. If data type is not integer and entered number from lower than zero, the error message is show.<br/>
+## . Exercise_7 - Least Common Multiple
+Least common multiple of two number is calculated.<br/>
+The data type of entered value is checked. If data type is not integer and entered number from lower than zero, the error message is show.<br/>
