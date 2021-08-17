@@ -1,5 +1,5 @@
 """
-Created on Sat Aug  7 17:33:08 2021
+Created on Sat Aug  7 2021
 
 @author: Yasin BİRCAN
 """
@@ -7,6 +7,8 @@ Created on Sat Aug  7 17:33:08 2021
 key = 1
 pid_list = []
 total_number = 0
+number_list = []
+abundant_numbers_list = []
 
 def checkInputValue(r_value):
     try:
@@ -27,18 +29,26 @@ def checkInputValue(r_value):
             r_value_check = 1
     return r_value_check
 
+def abundant_number_finder(r_number):
+    total_number = 0
+    for i in range(int(r_number-1)):
+        if r_number % (i+1) == 0:
+            pid_list.append(i+1)
+    for j in range(len(pid_list)):
+        total_number = pid_list[j] + total_number
+    if total_number > r_number:
+        r_number_check = 1
+    else:
+        r_number_check = 0
+    pid_list.clear()
+    return r_number_check
+
 while key == 1:
-    number = input("Please enter the first number: ")
+    number = input("Please enter a number: ")
     key = checkInputValue(number)
 number = int(number)
-
-for i in range(int(number-1)):
-    if number % (i+1) == 0:
-        pid_list.append(i+1)
-print("Proper integer divisiors of " + str(number) + ": " + str(pid_list))
-for i in range(len(pid_list)):
-    total_number = pid_list[i] + total_number
-if total_number > number:
-    print(str(number) + " is abundant number." )
-else:
-    print(str(number) + " is not abundant number.")
+for k in range(1,number+1):
+    number_list.append(k)
+    if abundant_number_finder(number_list[k-1]) == 1:
+        abundant_numbers_list.append(number_list[k-1])
+print("Abundant Number List: " + str(abundant_numbers_list))
