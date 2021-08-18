@@ -28,7 +28,7 @@ def checkInputValue(r_value):
             r_value_check = 1
     return r_value_check
 
-def amicable_number_finder(r_number): 
+def amicableNumberFinder(r_number): 
     total_number=0
     total_number_2=0
     for i in range(r_number-1):
@@ -57,6 +57,6 @@ while key == 1:
 number = int(number)
 for m in range(1,number+1):
     number_list.append(m)
-    if amicable_number_finder(number_list[m-1]) == 1:
+    if amicableNumberFinder(number_list[m-1]) == 1:
         amicable_numbers_list.append(number_list[m-1])
 print("Amicable Number List: " + str(amicable_numbers_list))
