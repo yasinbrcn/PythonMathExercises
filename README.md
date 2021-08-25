@@ -58,3 +58,5 @@ Source: https://en.wikipedia.org/wiki/Amicable_numbers
 In the program, all armstrong numbers are shown up to the entered number value.<br/>
 **Armstrong Numbers:** Numbers that are equal to the sum of the cubes of the numerical values of the digits in all their digits are called "Armstrong numbers".<br/>
 Example: 153=1^3+5^3+3^3
+## . Exercise_15 - Quadratic Equation Solver
+The program finds the roots of the equation with two unknowns.<br/>
