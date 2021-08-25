@@ -30,6 +30,6 @@ while key == 1:
     key = checkInputValue(number)
 number = int(number)
 
-for i in range (number):
+for i in range (number-2):
     sequence.append(sequence[i] + sequence[i+1])
 print("Fibonacci Sequence: " + str(sequence))
